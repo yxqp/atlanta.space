@@ -208,7 +208,7 @@ end
     end
 end
 
-local Files = listfiles(string.format("%s/%s", "Caprisun", tostring(game.PlaceId)))
+local Files = listfiles(string.format("%s/%s", "perc", tostring(game.PlaceId)))
 
 -- functions
 local function GetFiles() -- credits to the linoria lib for this function, listfiles returns the files full path and its annoying
