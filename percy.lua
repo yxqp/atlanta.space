@@ -866,6 +866,6 @@ end))
 
 task.spawn(function()
     while task.wait(0.9) do
-        Library:SetWatermark('caprisun | welcome, ' .. Player.Name .. ' | ' .. os.date("%x %X", os.time()))
+        Library:SetWatermark('perc | welcome, ' .. Player.Name .. ' | ' .. os.date("%x %X", os.time()))
     end
 end)
